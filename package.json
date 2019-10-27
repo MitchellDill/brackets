@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tournament bracketing app for games of all sort",
   "main": "index.jsx",
+  "repository": "github:mitchelldill/brackets",
   "scripts": {
     "start": "node ./server/index.js",
     "dev-start": "nodemon server/index.js",
@@ -13,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "audit": "0.0.6",
     "express": "^4.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
